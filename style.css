@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    background:lightgray;
+    color:black;
 }
 
 #gallery-container {
@@ -7,6 +9,11 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding-top: 40px;
+}
+
+.grid{
+    border:3px solid #333333;
+    padding:10%;
 }
 
 .filter-buttons {
